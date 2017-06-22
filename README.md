@@ -6,3 +6,4 @@ Adds a space after each character when the message starts with "/space" (removes
 # Known bugs
 
 - Ruins your tag (unless you can select the person with tab)
+- Only works in a full screen chat (not the chats on the right side)
