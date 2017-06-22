@@ -13,7 +13,7 @@ function spaceTyping() {
 					if (e.target.value.startsWith("/space")) {
 						$("#text_input_area").one('keydown', function (event) {
 							var keycode = event.keyCode;
-						
+							
 							if (keycode == 13) {
 								e.target.value = e.target.value.slice(6);
 							}
