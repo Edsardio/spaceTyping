@@ -41,9 +41,7 @@ function spaceTyping() {
 	_.getDescription=()=>'Type with spaces';
 	_.getVersion=()=>'1';
 	_.getAuthor=()=>'Apensnitzel';
-	_.load=function(){
-		init();
-	};
+	_.load=function(){};
 	_.start=function() {
 		init();
 	}
